@@ -5,6 +5,7 @@
     "database": "blogdb_df39",
     "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
+    "port": 5432,
     "dialecOptions": {
       "ssl": true
     }
@@ -22,6 +23,7 @@
     "database": "blogdb_df39",
     "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
+    "port": 5432,
     "dialecOptions": {
       "ssl": true
     }
