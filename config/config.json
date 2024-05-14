@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "blogdb",
-    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9-a.oregon-postgres.render.com",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
     "database": "blogdb_df39",
-    "host": "dpg-cp1lio63e1ms738osadg-a",
+    "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
     "dialecOptions": {
@@ -22,9 +22,9 @@
   },
   "production": {
     "username": "blogdb",
-    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9-a.oregon-postgres.render.com",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
     "database": "blogdb_df39",
-    "host": "dpg-cp1lio63e1ms738osadg-a",
+    "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
     "dialecOptions": {
