@@ -6,10 +6,7 @@
     "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialecOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+      "ssl": true
     }
   },
   "test": {
@@ -26,10 +23,7 @@
     "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialecOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+      "ssl": true
     }
   }
 }
