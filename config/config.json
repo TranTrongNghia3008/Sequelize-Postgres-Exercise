@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "blogdb",
-    "password": "wKlwL4tt9xDNhsNFcZcIVoirai1OdQ5o",
-    "database": "blogdb_5bhx",
-    "host": "dpg-cp1kpru3e1ms738obb4g-a",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
+    "database": "blogdb_df39",
+    "host": "dpg-cp1lio63e1ms738osadg-a",
     "dialect": "postgres",
     "port": 5432,
     "dialecOptions": {
@@ -22,9 +22,9 @@
   },
   "production": {
     "username": "blogdb",
-    "password": "wKlwL4tt9xDNhsNFcZcIVoirai1OdQ5o",
-    "database": "blogdb_5bhx",
-    "host": "dpg-cp1kpru3e1ms738obb4g-a",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
+    "database": "blogdb_df39",
+    "host": "dpg-cp1lio63e1ms738osadg-a",
     "dialect": "postgres",
     "port": 5432,
     "dialecOptions": {
