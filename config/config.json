@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "blogdb",
-    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9-a.oregon-postgres.render.com",
     "database": "blogdb_df39",
     "host": "dpg-cp1lio63e1ms738osadg-a",
     "dialect": "postgres",
@@ -22,7 +22,7 @@
   },
   "production": {
     "username": "blogdb",
-    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9-a.oregon-postgres.render.com",
     "database": "blogdb_df39",
     "host": "dpg-cp1lio63e1ms738osadg-a",
     "dialect": "postgres",
