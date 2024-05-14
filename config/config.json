@@ -1,11 +1,15 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
-    "database": "blogDB",
-    "host": "localhost",
+    "username": "blogdb",
+    "password": "wKlwL4tt9xDNhsNFcZcIVoirai1OdQ5o@dpg-cp1kpru3e1ms738obb4g-a.oregon-postgres.render.com/blogdb_5bhx",
+    "database": "blogdb_5bhx",
+    "host": "dpg-cp1kpru3e1ms738obb4g-a",
     "dialect": "postgres",
-    "port": 5432
+    "port": 5432,
+    "dialecOptions": {
+      "require": true,
+      "rejectUnauthorized": false
+    }
   },
   "test": {
     "username": "root",
@@ -15,10 +19,15 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "blogdb",
+    "password": "wKlwL4tt9xDNhsNFcZcIVoirai1OdQ5o@dpg-cp1kpru3e1ms738obb4g-a.oregon-postgres.render.com/blogdb_5bhx",
+    "database": "blogdb_5bhx",
+    "host": "dpg-cp1kpru3e1ms738obb4g-a",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialecOptions": {
+      "require": true,
+      "rejectUnauthorized": false
+    }
   }
 }
