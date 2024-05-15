@@ -7,7 +7,10 @@
     "dialect": "postgres",
     "port": 5432,
     "dialecOptions": {
-      "ssl": true
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
   },
   "test": {
@@ -25,7 +28,10 @@
     "dialect": "postgres",
     "port": 5432,
     "dialecOptions": {
-      "ssl": true
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
     }
   }
 }
