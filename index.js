@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 const expressHandlebars = require('express-handlebars');
 const { createPagination } = require('express-handlebars-paginate');
  
@@ -19,6 +19,13 @@ app.engine('hbs', expressHandlebars.engine({
 }));
 
 app.set('view engine', 'hbs');
+
+// app.get('/createTables', (req, res) => {
+//     let models = require('./models');
+//     models.sequelize.sync().then(() => {
+//         res.send('tables created!');
+//     })
+// })
 
 app.use('/', require('./routes/indexRouter'));
 app.use('/details/', require('./routes/detailsRouter'));

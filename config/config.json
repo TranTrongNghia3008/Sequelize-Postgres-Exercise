@@ -6,7 +6,7 @@
     "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
-    "dialecOptions": {
+    "dialectOptions": {
       "ssl": {
         "require": true,
         "rejectUnauthorized": false
@@ -27,7 +27,7 @@
     "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
-    "dialecOptions": {
+    "dialectOptions": {
       "ssl": {
         "require": true,
         "rejectUnauthorized": false
